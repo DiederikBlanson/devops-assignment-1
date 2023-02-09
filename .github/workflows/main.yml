@@ -1,5 +1,7 @@
 name: Builb Test and push
-on: [push]
+on:
+  push:
+    branches: ["master"]
 env:
   IMAGE_NAME: student_service
   REPO_NAME: dedder98
