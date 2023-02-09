@@ -58,16 +58,10 @@ paths:
       responses:
         "200":
           description: deleted
-          content:
-            application/json:
-              schema:
-                type: number
-                format: integer
-                x-content-type: application/json
         "400":
-          description: Bad request
+          description: "invalid input, object invalid"
         "404":
-          description: Not found
+          description: not found
       x-openapi-router-controller: swagger_server.controllers.default_controller
   /student:
     post:
@@ -97,6 +91,10 @@ paths:
 components:
   schemas:
     Student:
+      required:
+      - first_name
+      - last_name
+      - student_id
       type: object
       properties:
         student_id:
@@ -119,14 +117,18 @@ components:
         first_name: John
         gradeRecords:
         - grade: 8
-          subject_name: subject_name
+          subject_name: DevOps
         - grade: 8
-          subject_name: subject_name
+          subject_name: DevOps
     GradeRecord:
+      required:
+      - grade
+      - subject_name
       type: object
       properties:
         subject_name:
           type: string
+          example: DevOps
         grade:
           maximum: 10
           minimum: 0
@@ -135,5 +137,5 @@ components:
           example: 8
       example:
         grade: 8
-        subject_name: subject_name
+        subject_name: DevOps
 
