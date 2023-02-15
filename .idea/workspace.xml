@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd0fab1d-b513-4943-b624-7662f2d19a08" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/devops-assignment-1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/swagger_server/controllers/default_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/swagger_server/controllers/default_controller.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/swagger_server/models/grade_record.py" beforeDir="false" afterPath="$PROJECT_DIR$/swagger_server/models/grade_record.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/swagger_server/models/student.py" beforeDir="false" afterPath="$PROJECT_DIR$/swagger_server/models/student.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/swagger_server/swagger/swagger.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/swagger_server/swagger/swagger.yaml" afterDir="false" />
-    </list>
+    <list default="true" id="dd0fab1d-b513-4943-b624-7662f2d19a08" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
